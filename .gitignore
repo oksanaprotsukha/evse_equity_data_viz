@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# auth
+src/config.R
+src/filepath.R
+../.here
+
+data/
+
+.DS_Store
+
+
