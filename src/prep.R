@@ -16,7 +16,9 @@ library(kableExtra)
 library(janitor)
 
 # load configuration
-source(file.path(here::here('src','config.R')))
+# rootdir <- setwd("/Users/oksi/workspace/evse_equity_data_viz/")
+rootdir <- "/Users/oksi/workspace/evse_equity_data_viz/"
+source(file.path(rootdir,"src", "config.R"))
 
 # retrieve API Key
 api_key <- NREL_API_KEY
@@ -58,7 +60,7 @@ us_ev_sf <- fuel_stations_us_df_clean %>%
   st_as_sf(coords = c("longitude", "latitude"), crs = 4326)
 
 # read in shape file
-cejst <- st_read(here::here("data","raw","/usa/usa.shp"))
+cejst <- st_read(file.path(rootdir,"data","raw","/usa/usa.shp"))
 
 # make an initial plot of cejst: California state
 cejst %>%
