@@ -103,5 +103,3 @@ Samantha Csik, Professor for EDS-240 - Data Visualization & Communication</br>
 Sevan Esaian, Teaching Assistant for EDS-240 - Data Visualization & Communication</br>
 Bren School of Environmental Science & Management</br>
 University of California, Santa Barbara
-
-## Installation Instructions
