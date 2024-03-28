@@ -68,7 +68,7 @@ knitr::include_graphics(here::here("assets", "Infographic_Equitable_EV_Charging_
 
 I used the following data sets to address the question about **equity within EV charging network distribution and deployment in the United States**:\
 
-**Dataset 2**.
+**Dataset 1**.
 Climate and Economic Justice Screening Tool. 
 Source: [CEJST](https://screeningtool.geoplatform.gov/en/#3/33.47/-97.5)\
 
@@ -188,6 +188,7 @@ Next, I utilized the following design approach to visualize the questions above.
 ##~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 library(tidyverse) 
+library(sf)
 library(patchwork)
 library(showtext) 
 library(janitor)
