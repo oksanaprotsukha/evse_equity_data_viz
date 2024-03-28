@@ -2,7 +2,7 @@
 
 <img src="assets/Infographic_Equitable_EV_Charging_Infrastructure.png" width="400"/>
 
-# Table of Contents {#table-of-contents}
+### Table Of Contents
 
 1. [Objective](#objective)
 2. [Installation](#installation)
